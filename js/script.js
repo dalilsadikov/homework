@@ -250,3 +250,67 @@ users.filter((item) => {
         other.push(item.email);
     }
 })
+/* 
+
+let arr_students = [
+    {
+        name :'Davlat',
+        age : 15,
+        isMarried : true,
+        
+    },
+    {
+        name :'Dalil',
+        age : 21,
+        isMarried : false,
+
+    },
+    {
+        name :'Bekzod',
+        age : 16,
+        isMarried : true,
+
+    },
+    {
+        name :'Aziz',
+        age : 15,
+        isMarried : false,
+
+    },
+    {
+        name :'Amin',
+        age : 17,
+        isMarried : false,
+
+    }
+    ,
+    {
+        name :'Damir',
+        age : 29,
+        isMarried : true,
+
+    },
+    {
+        name :'Anis',
+        age : 26,
+        isMarried : false,
+
+    },
+    {
+        name :'Azim',
+        age : 34,
+        isMarried : false,
+
+    }
+]
+
+let person = prompt('Введите имя').toLowerCase()
+let ask = confirm('Женат или нет?')
+
+arr_students.filter((item) => {
+    if(item.name.toLocaleLowerCase() === person){
+        item.isMarried = ask
+    }
+})
+
+ */
